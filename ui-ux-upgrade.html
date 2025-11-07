@@ -1,0 +1,91 @@
+<!--here I will update the ui/ux of the app to make it modern, user friendly, responsive and visually appealing-->
+
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern UI/UX Upgrade</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #6200ea;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3700b3;
+        }
+        nav a {
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #6200ea;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        footer {
+            background-color: #6200ea;
+            color: white;
+            text-align: center;
+            padding: 1rem 2rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                padding: 1rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Modern UI/UX Experience</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <h2>Enhancing User Experience</h2>
+        <p>This upgrade focuses on creating a modern, user-friendly, and visually appealing interface. The design is responsive, ensuring optimal viewing across all devices.</p>
+        <h3>Key Features:</h3>
+        <ul>
+            <li>Clean and intuitive layout</li>
+            <li>Responsive design for mobile and desktop</li>
+            <li>Improved navigation with hover effects</li>
+            <li>Consistent color scheme and typography</li>
+        </ul>
+    </main>
+    <footer>
+        &copy; 2024 Modern UI/UX Upgrade. All rights reserved.
+    </footer>
+</body>
+</html>
+
+
